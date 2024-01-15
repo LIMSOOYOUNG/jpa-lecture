@@ -1,2 +1,2 @@
-# jpa-study
+# jpa-lecture
 jpa-study
