@@ -1,4 +1,4 @@
-package hellojpa;
+package chap01.hellojpa;
 
 import java.util.List;
 import javax.persistence.EntityManager;
