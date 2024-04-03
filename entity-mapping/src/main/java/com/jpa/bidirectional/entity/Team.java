@@ -1,6 +1,5 @@
-package chap04.basic_entity_mapping.bidirectional.entity;
+package com.jpa.bidirectional.entity;
 
-import javax.persistence.*;
 import java.util.List;
 
 @Entity

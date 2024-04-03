@@ -1,7 +1,8 @@
-package chap04.basic_entity_mapping.bidirectional.main;
+package com.jpa.bidirectional.main;
 
-import chap04.basic_entity_mapping.bidirectional.entity.Member;
-import chap04.basic_entity_mapping.bidirectional.entity.Team;
+
+import com.jpa.bidirectional.entity.Member;
+import com.jpa.bidirectional.entity.Team;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

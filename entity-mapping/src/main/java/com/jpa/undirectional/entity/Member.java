@@ -1,4 +1,4 @@
-package chap04.basic_entity_mapping.bidirectional.entity;
+package com.jpa.undirectional.entity;
 
 import javax.persistence.*;
 

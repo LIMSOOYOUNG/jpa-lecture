@@ -1,7 +1,8 @@
-package chap04.basic_entity_mapping.undirectional.main;
+package com.jpa.undirectional.main;
 
-import chap04.basic_entity_mapping.undirectional.entity.Member;
-import chap04.basic_entity_mapping.undirectional.entity.Team;
+
+import com.jpa.undirectional.entity.Member;
+import com.jpa.undirectional.entity.Team;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -50,9 +51,9 @@ public class Main {
             member.setTeam(team);
             em.persist(member);
 
-            /* 영속성 컨텍스트가 아닌 db에서 쿼리나오는거 보고싶을 때 
-            * 영속성 컨텍스트 초기화 하면 됨.
-            * em.flush, em.clear */
+            /* 영속성 컨텍스트가 아닌 db에서 쿼리나오는거 보고싶을 때
+             * 영속성 컨텍스트 초기화 하면 됨.
+             * em.flush, em.clear */
 //            em.flush();
 //            em.clear();
 
@@ -60,7 +61,6 @@ public class Main {
 
             Team findTeam = findMember.getTeam();
             System.out.println("findTeam = " + findTeam.getName());
-
 
 
             tx.commit();
@@ -72,7 +72,6 @@ public class Main {
         }
 
         emf.close();
-
 
 
     }
